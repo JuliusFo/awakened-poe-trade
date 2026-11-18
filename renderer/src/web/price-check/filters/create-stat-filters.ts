@@ -162,7 +162,8 @@ export function initUiModFilters (
     filterBasePercentile(ctx)
   }
   filterMemoryStrands(ctx, 'hide_memory_strands')
-  if (item.info.refName !== 'Split Personality') {
+  // Viscera: search the exact implicit, not a pseudo total
+  if (item.info.refName !== 'Split Personality' && item.category !== ItemCategory.Viscera) {
     filterPseudo(ctx)
   }
   if (item.uniqueBase?.refName === 'Timeless Jewel') {
@@ -187,6 +188,11 @@ export function initUiModFilters (
   }
 
   finalFilterTweaks(ctx)
+
+  if (item.category === ItemCategory.Viscera) {
+    // the implicit (and its tier range) is what sets a Viscera's price
+    ctx.filters.forEach(filter => { if (filter.tradeId) filter.disabled = false })
+  }
 
   return [...ctx.filters, ...ctx.groups]
 }
@@ -267,13 +273,9 @@ export function calculatedStatToFilter (
   }
 
   if (roll && !filter.option) {
-    if (
-      (item.rarity === ItemRarity.Magic && (
-        item.isUnmodifiable || item.isCorrupted || item.isMirrored
-      )) ||
-      // Viscera can't be modified, search for exact rolls
-      item.category === ItemCategory.Viscera
-    ) {
+    if (item.rarity === ItemRarity.Magic && (
+      item.isUnmodifiable || item.isCorrupted || item.isMirrored
+    )) {
       percent = 0
     } else if (
       item.rarity === ItemRarity.Unique ||
@@ -339,6 +341,12 @@ export function calculatedStatToFilter (
     }
 
     filterFillMinMax(filter.roll, calc.stat.better)
+
+    if (item.category === ItemCategory.Viscera && filter.roll.bounds) {
+      // lesser, normal and greater Viscera can share a stat: keep the search within this tier
+      filter.roll.min = filter.roll.bounds.min
+      filter.roll.max = filter.roll.bounds.max
+    }
 
     if (translation.negate) {
       filterAdjustmentForNegate(filter.roll)

@@ -69,6 +69,14 @@ export function createFilters (
       disabled: !(item.stackSize && item.stackSize.value > 1 && opts.activateStockFilter)
     }
   }
+  if (item.category === ItemCategory.Viscera) {
+    // Viscera are priced by their own base type, the tier shows in the implicit stat filter
+    filters.searchExact = {
+      baseType: item.info.name,
+      baseTypeTrade: t(opts, item.info)
+    }
+    return filters
+  }
   if (item.category === ItemCategory.Invitation) {
     filters.searchExact = {
       baseType: item.info.name,
@@ -358,7 +366,6 @@ export function createFilters (
       item.category !== ItemCategory.SanctumRelic &&
       item.category !== ItemCategory.Charm &&
       item.category !== ItemCategory.Idol &&
-      item.category !== ItemCategory.Viscera &&
       item.info.refName !== 'Expedition Logbook'
     ) {
       if (item.category === ItemCategory.ClusterJewel) {

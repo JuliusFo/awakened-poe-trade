@@ -9,7 +9,6 @@ on:
     paths-ignore:
       - 'docs/**'
       - README.md
-  workflow_dispatch:
 
 jobs:
   renderer:
@@ -31,8 +30,6 @@ jobs:
 
   package:
     needs: renderer
-    permissions:
-      contents: write
     strategy:
       matrix:
         os: [windows-2022, ubuntu-22.04, macos-15]

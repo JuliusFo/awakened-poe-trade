@@ -1,7 +1,5 @@
 publish:
-  - provider: "github"
-    owner: "Ex4amp1e"
-    repo: "awakened-poe-trade"
+  - "github"
 productName: "Awakened PoE Trade"
 npmRebuild: false
 toolsets:
