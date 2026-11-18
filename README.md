@@ -1,3 +1,18 @@
+> [!NOTE]
+> **Unofficial interim build with Viscera support (3.30 Covens).** This fork adds price checking for
+> Viscera (limbs for the Wickerman) and Blood-filled Vessels until the official app supports them.
+> Use the official release again once it does: this build shows the official update notice but does not
+> install updates by itself.
+>
+> Changes on branch `viscera-local`, on top of upstream `158843e`:
+> - Viscera parsing from [Ex4amp1e's fork](https://github.com/Ex4amp1e/awakened-poe-trade/pull/2) (no Rarity line, Lesser/Greater prefix, trade category).
+> - Viscera are searched by their own base type, with the implicit enabled and limited to the tier's range
+>   (lesser, normal and greater versions can share a stat).
+> - Added the missing Viscera *Hallowed Descry* and the *Blood-filled Vessel* fragment to the English item data.
+>
+> Report problems with this build here, not on the upstream issue tracker. All credit for the app goes to
+> [SnosMe](https://github.com/SnosMe/awakened-poe-trade); licensed under MIT like the original.
+
 # ![Awakener's Orb](https://web.poecdn.com/image/Art/2DItems/Currency/TransferOrb.png) Awakened PoE Trade
 
 [![](https://user-images.githubusercontent.com/4292308/153364874-dde23599-278c-4350-8d86-dadbc4b978b3.svg)](https://somsubhra.github.io/github-release-stats/?username=SnosMe&repository=awakened-poe-trade)
