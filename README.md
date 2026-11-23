@@ -4,7 +4,7 @@
 > official release again once it does: this build shows the official update notice but does not install
 > updates by itself.
 >
-> Changes on branch `inscribed-ultimatum`, on top of upstream `db34867`:
+> Changes on branch `viscera-local`, on top of upstream `db34867`:
 > - Inscribed Ultimatum parsing and trade filters (challenge, reward, sacrifice, reward unique, area
 >   level, reward tier via the monster life/damage lines), ported from
 >   [vandlol's branch](https://github.com/SnosMe/awakened-poe-trade/issues/1921).
