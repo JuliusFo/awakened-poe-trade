@@ -1,14 +1,16 @@
 > [!NOTE]
-> **Unofficial interim build with Viscera support (3.30 Covens).** This fork adds price checking for
-> Viscera (limbs for the Wickerman) and Blood-filled Vessels until the official app supports them.
-> Use the official release again once it does: this build shows the official update notice but does not
-> install updates by itself.
+> **Unofficial build with Inscribed Ultimatum price checking (3.30 Covens).** This fork is the official
+> app plus price checking for Inscribed Ultimatums, until the official app supports them. Use the
+> official release again once it does: this build shows the official update notice but does not install
+> updates by itself.
 >
-> Changes on branch `viscera-local`, on top of upstream `158843e`:
-> - Viscera parsing from [Ex4amp1e's fork](https://github.com/Ex4amp1e/awakened-poe-trade/pull/2) (no Rarity line, Lesser/Greater prefix, trade category).
-> - Viscera are searched by their own base type, with the implicit enabled and limited to the tier's range
->   (lesser, normal and greater versions can share a stat).
-> - Added the missing Viscera *Hallowed Descry* and the *Blood-filled Vessel* fragment to the English item data.
+> Changes on branch `inscribed-ultimatum`, on top of upstream `db34867`:
+> - Inscribed Ultimatum parsing and trade filters (challenge, reward, sacrifice, reward unique, area
+>   level, reward tier via the monster life/damage lines), ported from
+>   [vandlol's branch](https://github.com/SnosMe/awakened-poe-trade/issues/1921).
+> - Added the missing *Blood-filled Vessel* fragment to the English item data.
+> - Viscera use the official implementation (this fork's earlier interim Viscera support was dropped),
+>   with the modifier enabled by default so the first search is not the whole body-part category.
 >
 > Report problems with this build here, not on the upstream issue tracker. All credit for the app goes to
 > [SnosMe](https://github.com/SnosMe/awakened-poe-trade); licensed under MIT like the original.

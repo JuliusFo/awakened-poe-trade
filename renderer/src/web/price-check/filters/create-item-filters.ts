@@ -48,7 +48,10 @@ export function createFilters (
     if (!opts.currency) {
       filters.trade.currency = 'chaos_divine'
     }
-    if (item.info.refName !== 'Mercenary Warrant') {
+    if (
+      item.info.refName !== 'Mercenary Warrant' &&
+      item.info.refName !== 'Viscera'
+    ) {
       filters.trade.collapseMerchant = true
     }
   }
@@ -68,14 +71,6 @@ export function createFilters (
       value: item.stackSize?.value || 1,
       disabled: !(item.stackSize && item.stackSize.value > 1 && opts.activateStockFilter)
     }
-  }
-  if (item.category === ItemCategory.Viscera) {
-    // Viscera are priced by their own base type, the tier shows in the implicit stat filter
-    filters.searchExact = {
-      baseType: item.info.name,
-      baseTypeTrade: t(opts, item.info)
-    }
-    return filters
   }
   if (item.category === ItemCategory.Invitation) {
     filters.searchExact = {
@@ -183,6 +178,12 @@ export function createFilters (
         value: item.itemLevel,
         disabled: false
       }
+    }
+    return filters
+  }
+  if (item.info.refName === 'Viscera') {
+    filters.searchExact = {
+      category: item.category
     }
     return filters
   }
@@ -301,6 +302,10 @@ export function createFilters (
       value: item.sentinelCharge,
       disabled: false
     }
+  }
+
+  if (JEWELLERY.has(item.category!) && !item.quality) {
+    filters.notCatalysed = { disabled: false }
   }
 
   if (item.quality && item.quality >= 20 && !JEWELLERY.has(item.category!)) {

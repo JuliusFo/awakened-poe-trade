@@ -53,7 +53,10 @@ export const CATEGORY_TO_TRADE_ID = new Map([
   [ItemCategory.Idol, 'idol'],
   [ItemCategory.Graft, 'graft'],
   [ItemCategory.Chart, 'chart'],
-  [ItemCategory.Viscera, 'viscera']
+  [ItemCategory.HeadViscera, 'viscera.head'],
+  [ItemCategory.TorsoViscera, 'viscera.body'],
+  [ItemCategory.LowerLimbViscera, 'viscera.leg'],
+  [ItemCategory.UpperLimbViscera, 'viscera.arm']
 ])
 
 const TOTAL_MODS_TEXT = {
@@ -363,6 +366,9 @@ export function createTradeRequest (filters: ItemFilters, stats: FilterOrGroup[]
   }
   if (filters.mirrored?.disabled) {
     propSet(query.filters, 'misc_filters.filters.mirrored.option', String(false))
+  }
+  if (filters.notCatalysed && !filters.notCatalysed.disabled) {
+    propSet(query.filters, 'misc_filters.filters.quality.max', 0)
   }
 
   if (filters.gemLevel && !filters.gemLevel.disabled) {

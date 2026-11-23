@@ -167,8 +167,7 @@ export function initUiModFilters (
     filterBasePercentile(ctx)
   }
   filterMemoryStrands(ctx, 'hide_memory_strands')
-  // Viscera: search the exact implicit, not a pseudo total
-  if (item.info.refName !== 'Split Personality' && item.category !== ItemCategory.Viscera) {
+  if (item.info.refName !== 'Split Personality') {
     filterPseudo(ctx)
   }
   if (item.uniqueBase?.refName === 'Timeless Jewel') {
@@ -192,12 +191,12 @@ export function initUiModFilters (
     ctx.filters.forEach(filter => { filter.disabled = true })
   }
 
-  finalFilterTweaks(ctx)
-
-  if (item.category === ItemCategory.Viscera) {
-    // the implicit (and its tier range) is what sets a Viscera's price
-    ctx.filters.forEach(filter => { if (filter.tradeId) filter.disabled = false })
+  if (item.info.refName === 'Viscera') {
+    // the modifier is what sets a Viscera's price, a search by category alone is useless
+    ctx.filters.forEach(filter => { filter.disabled = false })
   }
+
+  finalFilterTweaks(ctx)
 
   return [...ctx.filters, ...ctx.groups]
 }
@@ -218,6 +217,7 @@ export function calculatedStatToFilter (
       tag: (type === ModifierType.Enchant)
         ? FilterTag.Enchant
         : FilterTag.Variant,
+      reminderText: sources[0].stat.stat.reminderText,
       sources: sources,
       option: {
         value: sources[0].contributes!.value
@@ -238,6 +238,7 @@ export function calculatedStatToFilter (
     text: translation.string,
     tag: type,
     oils: decodeOils(calc),
+    reminderText: sources.find(({ stat }) => stat.stat.reminderText != null)?.stat.stat.reminderText,
     sources: sources,
     roll: undefined,
     disabled: true
@@ -278,9 +279,10 @@ export function calculatedStatToFilter (
   }
 
   if (roll && !filter.option) {
-    if (item.rarity === ItemRarity.Magic && (
-      item.isUnmodifiable || item.isCorrupted || item.isMirrored
-    )) {
+    if (
+      (item.rarity === ItemRarity.Magic && (item.isUnmodifiable || item.isCorrupted || item.isMirrored)) ||
+      item.info.refName === 'Viscera'
+    ) {
       percent = 0
     } else if (
       item.rarity === ItemRarity.Unique ||
@@ -346,12 +348,6 @@ export function calculatedStatToFilter (
     }
 
     filterFillMinMax(filter.roll, calc.stat.better)
-
-    if (item.category === ItemCategory.Viscera && filter.roll.bounds) {
-      // lesser, normal and greater Viscera can share a stat: keep the search within this tier
-      filter.roll.min = filter.roll.bounds.min
-      filter.roll.max = filter.roll.bounds.max
-    }
 
     if (translation.negate) {
       filterAdjustmentForNegate(filter.roll)

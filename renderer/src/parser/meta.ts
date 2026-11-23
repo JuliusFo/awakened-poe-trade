@@ -52,8 +52,11 @@ export enum ItemCategory {
   Idol = 'Idol',
   Graft = 'Graft',
   Chart = 'Chart',
-  Viscera = 'Viscera',
-  MercenaryWarrant = 'Mercenary Warrant'
+  MercenaryWarrant = 'Mercenary Warrant',
+  UpperLimbViscera = 'Upper Limb Viscera',
+  LowerLimbViscera = 'Lower Limb Viscera',
+  HeadViscera = 'Head Viscera',
+  TorsoViscera = 'Torso Viscera'
 }
 
 export const WEAPON_ONE_HANDED_MELEE = new Set([
