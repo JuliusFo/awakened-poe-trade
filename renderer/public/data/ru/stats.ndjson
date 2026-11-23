@@ -9949,3 +9949,60 @@
 {"ref":"Minions take #% reduced Reflected Damage","better":1,"matchers":[{"string":"Приспешники получают уменьшенный на #% отраженный урон"}],"trade":{"ids":{"implicit":["implicit.stat_3056045252"]}}}
 {"ref":"#% reduced Reflected Damage taken","better":1,"matchers":[{"string":"#% уменьшение получаемого отражённого урона"},{"string":"#% увеличение получаемого отражённого урона","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3846810663"]}}}
 {"ref":"#% increased Empowerment","better":1,"matchers":[{"string":"#% повышение Усиления"},{"string":"#% снижение Усиления","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_2377438118"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"Отражение состояний и проклятий"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"Обжигающий холод"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"Обжигающий холод II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"Обжигающий холод III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"Обжигающий холод IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"Быстрое истечение положительных эффектов"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"Удушающие испарения"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"Удушающие испарения II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"Удушающие испарения III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"Смертоносные монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"Проворные монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"Засуха"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"Постоянное повышение получаемого урона"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"Постоянное повышение скорости монстров"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"Сковывающие флаконы"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"Замедление перезарядки"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"Уменьшение досягаемости"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"Беспощадные редкие монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"Урон от молнии при расходе маны"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"Случайное бессилие"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"Подавляющие монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"Точные монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"Радужные монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"Нечестивые монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"Неистовый мертвец"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"Неистовый мертвец II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"Неистовый мертвец III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"Неистовый мертвец IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"Танец лезвий"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"Танец лезвий II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"Танец лезвий III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"Танец лезвий IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"Уменьшенное восстановление"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"Уменьшенное восстановление II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"Устойчивые монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"Беспокойная земля"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"Беспокойная земля II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"Гибель II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"Гибель III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"Гибель IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"Расколотый щит"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"Ограждающие монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"Исчезающие заряды"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"Вытягивающие монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"Крадущаяся гибель"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"Крадущаяся гибель II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"Крадущаяся гибель III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"Крадущаяся гибель IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"Руны призывателя шторма"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"Руны призывателя шторма II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"Руны призывателя шторма III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"Руны призывателя шторма IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"Тотем дорогостоящей силы"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"Тотем дорогостоящего могущества"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"Предательские ауры"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"Неудачливые критические удары"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"Неудержимые монстры"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}

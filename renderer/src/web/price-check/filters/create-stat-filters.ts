@@ -12,6 +12,7 @@ import { mapProps, valdoBadMods, chartProps } from './pseudo/maps'
 import { applyFlaskHybridMod } from './pseudo/flasks'
 import { applyHeistRules } from './pseudo/heist'
 import { filterTimelessJewelKeystones } from './pseudo/timeless-jewel'
+import { applyUltimatumRules } from './pseudo/ultimatum'
 import { decodeOils, applyAnointmentRules } from './pseudo/anointments'
 import { StatBetter } from '@/assets/data'
 
@@ -55,6 +56,8 @@ export function createExactStatFilters (
   )) {
     keepByType.push(ModifierType.Explicit)
   } else if (item.rarity === ItemRarity.Rare && item.category === ItemCategory.Idol) {
+    keepByType.push(ModifierType.Explicit)
+  } else if (item.category === ItemCategory.Ultimatum) {
     keepByType.push(ModifierType.Explicit)
   }
 
@@ -132,6 +135,8 @@ export function createExactStatFilters (
     enableAllFilters(ctx.filters)
   } else if (item.category === ItemCategory.Idol) {
     enableGoodRolledFilters(ctx.filters, 0.66)
+  } else if (item.category === ItemCategory.Ultimatum) {
+    applyUltimatumRules(ctx)
   }
 
   return ctx.filters

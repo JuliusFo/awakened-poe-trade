@@ -11,6 +11,14 @@
         :filter="{ disabled: false }" :text="t('item.map_foil_reward', [filters.mapCompletionReward.name])" />
       <filter-btn-numeric v-if="filters.areaLevel"
         :filter="filters.areaLevel" :name="t('item.area_level')" />
+      <filter-btn-logical v-if="filters.ultimatumChallenge"
+        :filter="filters.ultimatumChallenge" :text="t('item.ultimatum_challenge', [filters.ultimatumChallenge.text])" />
+      <filter-btn-logical v-if="filters.ultimatumReward"
+        :filter="filters.ultimatumReward" :text="t('item.ultimatum_reward', [filters.ultimatumReward.text])" />
+      <filter-btn-logical v-if="filters.ultimatumRewardUnique"
+        :filter="filters.ultimatumRewardUnique" :text="t('item.ultimatum_reward', [filters.ultimatumRewardUnique.text])" />
+      <filter-btn-logical v-if="filters.ultimatumSacrifice"
+        :filter="filters.ultimatumSacrifice" :text="t('item.ultimatum_sacrifice', [filters.ultimatumSacrifice.text])" />
       <filter-btn-numeric v-if="filters.sentinelCharge"
         :filter="filters.sentinelCharge" :name="t('item.sentinel_charge')" />
       <filter-btn-numeric v-if="filters.itemLevel"

@@ -9897,3 +9897,60 @@
 {"ref":"Zealotry has #% increased Aura Effect","better":1,"matchers":[{"string":"열광의 오라 효과 #% 증가"},{"string":"열광의 오라 효과 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_4096052153"],"implicit":["implicit.stat_4096052153"],"fractured":["fractured.stat_4096052153"]}}}
 {"ref":"Zealotry has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"열광의 마나 점유 효율 #% 증가"},{"string":"열광의 마나 점유 효율 #% 감소","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_168308685"],"implicit":["implicit.stat_168308685"],"enchant":["enchant.stat_168308685"]}}}
 {"ref":"Zealotry has no Reservation","better":1,"matchers":[{"string":"열광으로 인한 점유 없음"}],"trade":{"ids":{"explicit":["explicit.stat_1741242318"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"상태 이상 및 저주 반사"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"맹렬한 냉기"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"맹렬한 냉기 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"맹렬한 냉기 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"맹렬한 냉기 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"버프 만료 속도 가속"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"숨막히는 독기"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"숨막히는 독기 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"숨막히는 독기 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"무시무시한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"민첩한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"가뭄"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"받는 피해 점증"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"몬스터 속도 점증"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"방해하는 플라스크"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"재사용 대기시간 회복 속도 감폭"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"거리 감폭"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"치명적인 희귀 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"마나 소모로 번개 피해"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"간헐적 무기력"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"압도적인 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"정확한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"분광 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"부정한 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"격노하는 시체"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"격노하는 시체 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"격노하는 시체 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"격노하는 시체 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"면도날 춤"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"면도날 춤 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"면도날 춤 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"면도날 춤 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"회복 감소"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"회복 감소 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"저항하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"쉬지 못하는 흙"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"쉬지 못하는 흙 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"파탄 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"파탄 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"파탄 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"조각난 방패"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"방어하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"충전 흡수"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"착취하는 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"뒤를 쫓는 파탄"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"뒤를 쫓는 파탄 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"폭풍 소환사 룬"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"폭풍 소환사 룬 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"폭풍 소환사 룬 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"폭풍 소환사 룬 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"완력의 대가 토템"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"잠재력의 대가 토템"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"오라의 배신"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"불운의 치명타"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"폭주 몬스터"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}

@@ -9909,3 +9909,60 @@
 {"ref":"Zealotry has #% increased Aura Effect","better":1,"matchers":[{"string":"狂熱增加 #% 光環效果"},{"string":"狂熱減少 #% 光環效果","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_4096052153"],"implicit":["implicit.stat_4096052153"],"fractured":["fractured.stat_4096052153"]}}}
 {"ref":"Zealotry has #% increased Mana Reservation Efficiency","better":1,"matchers":[{"string":"狂熱增加 #% 魔力保留效用"},{"string":"狂熱減少 #% 魔力保留效用","negate":true}],"trade":{"ids":{"explicit":["explicit.stat_168308685"],"implicit":["implicit.stat_168308685"],"enchant":["enchant.stat_168308685"]}}}
 {"ref":"Zealotry has no Reservation","better":1,"matchers":[{"string":"狂熱無保留"}],"trade":{"ids":{"explicit":["explicit.stat_1741242318"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"異常狀態和詛咒反射"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"極凍"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"極凍 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"極凍 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"極凍 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"增益效果失效加速"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"窒息迷霧"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"窒息迷霧 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"窒息迷霧 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"致命怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"輕巧怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"乾旱"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"增加承受傷害"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"增加怪物速度"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"阻礙藥劑"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"降低冷卻時間恢復"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"縮小範圍"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"致死稀有怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"魔力消耗的閃電傷害"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"暫時失效"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"鎮壓怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"精準怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"三相怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"褻瀆怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"憤怒亡者"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"憤怒亡者 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"憤怒亡者 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"憤怒亡者 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"飛刃舞步"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"飛刃舞步 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"飛刃舞步 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"飛刃舞步 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"減少回復"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"減少回復 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"抗性怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"躁動地面"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"躁動地面 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"毀滅 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"毀滅 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"毀滅 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"破碎盾牌"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"巨盾怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"虹吸球"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"虹吸怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"毀滅迷蹤"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"毀滅迷蹤 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"毀滅迷蹤 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"毀滅迷蹤 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"風暴喚者符文"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"風暴喚者符文 II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"風暴喚者符文 III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"風暴喚者符文 IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"耗力圖騰"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"耗能圖騰"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"奸詐光環"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"不幸運暴擊"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"不可阻擋怪物"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}

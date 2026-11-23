@@ -9958,3 +9958,60 @@
 {"ref":"Minions take #% reduced Reflected Damage","better":1,"matchers":[{"string":"Minions take #% reduced Reflected Damage"},{"string":"Minions take #% increased Reflected Damage","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3056045252"]}}}
 {"ref":"#% reduced Reflected Damage taken","better":1,"matchers":[{"string":"#% reduced Reflected Damage taken"},{"string":"#% increased Reflected Damage taken","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_3846810663"]}}}
 {"ref":"#% increased Empowerment","better":1,"matchers":[{"string":"#% increased Empowerment"},{"string":"#% reduced Empowerment","negate":true}],"trade":{"ids":{"implicit":["implicit.stat_2377438118"]}}}
+{"ref":"Ailment and Curse Reflection","better":1,"matchers":[{"string":"Ailment and Curse Reflection"}],"trade":{"ids":{"explicit":["ultimatum.umod_11872"]}}}
+{"ref":"Blistering Cold","better":1,"matchers":[{"string":"Blistering Cold"}],"trade":{"ids":{"explicit":["ultimatum.umod_13648"]}}}
+{"ref":"Blistering Cold II","better":1,"matchers":[{"string":"Blistering Cold II"}],"trade":{"ids":{"explicit":["ultimatum.umod_62444"]}}}
+{"ref":"Blistering Cold III","better":1,"matchers":[{"string":"Blistering Cold III"}],"trade":{"ids":{"explicit":["ultimatum.umod_28497"]}}}
+{"ref":"Blistering Cold IV","better":1,"matchers":[{"string":"Blistering Cold IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_3273"]}}}
+{"ref":"Buffs Expire Faster","better":1,"matchers":[{"string":"Buffs Expire Faster"}],"trade":{"ids":{"explicit":["ultimatum.umod_29421"]}}}
+{"ref":"Choking Miasma","better":1,"matchers":[{"string":"Choking Miasma"}],"trade":{"ids":{"explicit":["ultimatum.umod_40225"]}}}
+{"ref":"Choking Miasma II","better":1,"matchers":[{"string":"Choking Miasma II"}],"trade":{"ids":{"explicit":["ultimatum.umod_54213"]}}}
+{"ref":"Choking Miasma III","better":1,"matchers":[{"string":"Choking Miasma III"}],"trade":{"ids":{"explicit":["ultimatum.umod_12812"]}}}
+{"ref":"Deadly Monsters","better":1,"matchers":[{"string":"Deadly Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_38838"]}}}
+{"ref":"Dexterous Monsters","better":1,"matchers":[{"string":"Dexterous Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_10506"]}}}
+{"ref":"Drought","better":1,"matchers":[{"string":"Drought"}],"trade":{"ids":{"explicit":["ultimatum.umod_15668"]}}}
+{"ref":"Escalating Damage Taken","better":1,"matchers":[{"string":"Escalating Damage Taken"}],"trade":{"ids":{"explicit":["ultimatum.umod_57621"]}}}
+{"ref":"Escalating Monster Speed","better":1,"matchers":[{"string":"Escalating Monster Speed"}],"trade":{"ids":{"explicit":["ultimatum.umod_7961"]}}}
+{"ref":"Hindering Flasks","better":1,"matchers":[{"string":"Hindering Flasks"}],"trade":{"ids":{"explicit":["ultimatum.umod_27491"]}}}
+{"ref":"Less Cooldown Recovery","better":1,"matchers":[{"string":"Less Cooldown Recovery"}],"trade":{"ids":{"explicit":["ultimatum.umod_39295"]}}}
+{"ref":"Lessened Reach","better":1,"matchers":[{"string":"Lessened Reach"}],"trade":{"ids":{"explicit":["ultimatum.umod_50320"]}}}
+{"ref":"Lethal Rare Monsters","better":1,"matchers":[{"string":"Lethal Rare Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_47347"]}}}
+{"ref":"Lightning Damage from Mana Costs","better":1,"matchers":[{"string":"Lightning Damage from Mana Costs"}],"trade":{"ids":{"explicit":["ultimatum.umod_58901"]}}}
+{"ref":"Occasional Impotence","better":1,"matchers":[{"string":"Occasional Impotence"}],"trade":{"ids":{"explicit":["ultimatum.umod_65051"]}}}
+{"ref":"Overwhelming Monsters","better":1,"matchers":[{"string":"Overwhelming Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_59748"]}}}
+{"ref":"Precise Monsters","better":1,"matchers":[{"string":"Precise Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_33891"]}}}
+{"ref":"Prismatic Monsters","better":1,"matchers":[{"string":"Prismatic Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_39785"]}}}
+{"ref":"Profane Monsters","better":1,"matchers":[{"string":"Profane Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_18354"]}}}
+{"ref":"Raging Dead","better":1,"matchers":[{"string":"Raging Dead"}],"trade":{"ids":{"explicit":["ultimatum.umod_62391","ultimatum.umod_28673"]}}}
+{"ref":"Raging Dead II","better":1,"matchers":[{"string":"Raging Dead II"}],"trade":{"ids":{"explicit":["ultimatum.umod_26465","ultimatum.umod_38306"]}}}
+{"ref":"Raging Dead III","better":1,"matchers":[{"string":"Raging Dead III"}],"trade":{"ids":{"explicit":["ultimatum.umod_6748","ultimatum.umod_49977"]}}}
+{"ref":"Raging Dead IV","better":1,"matchers":[{"string":"Raging Dead IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_39655","ultimatum.umod_24954"]}}}
+{"ref":"Razor Dance","better":1,"matchers":[{"string":"Razor Dance"}],"trade":{"ids":{"explicit":["ultimatum.umod_7052"]}}}
+{"ref":"Razor Dance II","better":1,"matchers":[{"string":"Razor Dance II"}],"trade":{"ids":{"explicit":["ultimatum.umod_45148"]}}}
+{"ref":"Razor Dance III","better":1,"matchers":[{"string":"Razor Dance III"}],"trade":{"ids":{"explicit":["ultimatum.umod_22941"]}}}
+{"ref":"Razor Dance IV","better":1,"matchers":[{"string":"Razor Dance IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_15044"]}}}
+{"ref":"Reduced Recovery","better":1,"matchers":[{"string":"Reduced Recovery"}],"trade":{"ids":{"explicit":["ultimatum.umod_5772"]}}}
+{"ref":"Reduced Recovery II","better":1,"matchers":[{"string":"Reduced Recovery II"}],"trade":{"ids":{"explicit":["ultimatum.umod_37639"]}}}
+{"ref":"Resistant Monsters","better":1,"matchers":[{"string":"Resistant Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_25457"]}}}
+{"ref":"Restless Ground","better":1,"matchers":[{"string":"Restless Ground"}],"trade":{"ids":{"explicit":["ultimatum.umod_27548"]}}}
+{"ref":"Restless Ground II","better":1,"matchers":[{"string":"Restless Ground II"}],"trade":{"ids":{"explicit":["ultimatum.umod_63601"]}}}
+{"ref":"Ruin II","better":1,"matchers":[{"string":"Ruin II"}],"trade":{"ids":{"explicit":["ultimatum.umod_24728"]}}}
+{"ref":"Ruin III","better":1,"matchers":[{"string":"Ruin III"}],"trade":{"ids":{"explicit":["ultimatum.umod_35694"]}}}
+{"ref":"Ruin IV","better":1,"matchers":[{"string":"Ruin IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_60794"]}}}
+{"ref":"Shattered Shield","better":1,"matchers":[{"string":"Shattered Shield"}],"trade":{"ids":{"explicit":["ultimatum.umod_43095"]}}}
+{"ref":"Shielding Monsters","better":1,"matchers":[{"string":"Shielding Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_36548"]}}}
+{"ref":"Siphoned Charges","better":1,"matchers":[{"string":"Siphoned Charges"}],"trade":{"ids":{"explicit":["ultimatum.umod_21966"]}}}
+{"ref":"Siphoning Monsters","better":1,"matchers":[{"string":"Siphoning Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_45921"]}}}
+{"ref":"Stalking Ruin","better":1,"matchers":[{"string":"Stalking Ruin"}],"trade":{"ids":{"explicit":["ultimatum.umod_7958"]}}}
+{"ref":"Stalking Ruin II","better":1,"matchers":[{"string":"Stalking Ruin II"}],"trade":{"ids":{"explicit":["ultimatum.umod_32061"]}}}
+{"ref":"Stalking Ruin III","better":1,"matchers":[{"string":"Stalking Ruin III"}],"trade":{"ids":{"explicit":["ultimatum.umod_47172"]}}}
+{"ref":"Stalking Ruin IV","better":1,"matchers":[{"string":"Stalking Ruin IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_49847"]}}}
+{"ref":"Stormcaller Runes","better":1,"matchers":[{"string":"Stormcaller Runes"}],"trade":{"ids":{"explicit":["ultimatum.umod_11866","ultimatum.umod_19821"]}}}
+{"ref":"Stormcaller Runes II","better":1,"matchers":[{"string":"Stormcaller Runes II"}],"trade":{"ids":{"explicit":["ultimatum.umod_40295","ultimatum.umod_13955"]}}}
+{"ref":"Stormcaller Runes III","better":1,"matchers":[{"string":"Stormcaller Runes III"}],"trade":{"ids":{"explicit":["ultimatum.umod_43498"]}}}
+{"ref":"Stormcaller Runes IV","better":1,"matchers":[{"string":"Stormcaller Runes IV"}],"trade":{"ids":{"explicit":["ultimatum.umod_53101"]}}}
+{"ref":"Totem of Costly Might","better":1,"matchers":[{"string":"Totem of Costly Might"}],"trade":{"ids":{"explicit":["ultimatum.umod_8887"]}}}
+{"ref":"Totem of Costly Potency","better":1,"matchers":[{"string":"Totem of Costly Potency"}],"trade":{"ids":{"explicit":["ultimatum.umod_58910"]}}}
+{"ref":"Treacherous Auras","better":1,"matchers":[{"string":"Treacherous Auras"}],"trade":{"ids":{"explicit":["ultimatum.umod_12730"]}}}
+{"ref":"Unlucky Criticals","better":1,"matchers":[{"string":"Unlucky Criticals"}],"trade":{"ids":{"explicit":["ultimatum.umod_40124"]}}}
+{"ref":"Unstoppable Monsters","better":1,"matchers":[{"string":"Unstoppable Monsters"}],"trade":{"ids":{"explicit":["ultimatum.umod_11559"]}}}
